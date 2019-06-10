@@ -1,2 +1,9 @@
 # 支教网站
-支教宣传
+
+项目结构：
+
+welcome
+     index
+         chinesePage
+     eindex
+         englishPage
