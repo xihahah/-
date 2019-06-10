@@ -1,0 +1,45 @@
+/*路径导航*/
+.myNewsOl{
+    background: rgba(255, 255, 255, 0.8);
+    padding-top:20px;
+}
+.myNewsOl .breadcrumb{
+    background:none;
+    color:#777;
+    border-radius: 0;
+    border-bottom:6px solid rgb(231,38,44);
+}
+.myNewsOl .breadcrumb li a{
+    color:#777;
+}
+.myNewsOl .breadcrumb > li::before{
+     content: "→";
+ }
+.myNewsOl .breadcrumb > li + li::before{
+    content: "→";
+    color:#777;
+}
+/*新闻内容*/
+.News{
+    padding-bottom:30px;
+    background:rgba(255, 255, 255, 0.8);
+}
+.News h3{
+    text-align: center;
+    margin-top:0;
+    margin-bottom: 20px;
+}
+.News .NewsTime{
+    border-bottom:1px solid #9f9f9f;
+    line-height:30px;
+    margin-bottom:30px;
+}
+.News p{
+    margin:0;
+    line-height: 25px;
+    text-indent: 2em;
+}
+.News img{
+    width:95%;
+    margin:10px;
+}

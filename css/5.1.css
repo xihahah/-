@@ -1,0 +1,125 @@
+.myNew2{
+    margin-top:20px;
+    margin-bottom:20px;
+    background:rgba(255, 255, 255, 0.8);
+    padding:40px 30px;
+}
+.myNew2 .myNew2-left{
+    border-right:1px solid #686868;
+}
+.myNew2 .newsP1{
+    display:block;
+}
+.myNew2 .newsP2{
+    display:none;
+}
+.myNew2 .news2{
+    border-bottom:1px solid #686868;
+    padding:0 0 15px 0;
+}
+.myNew2 .news2 .media{
+    margin-top:0;
+}
+.myNew2 .news2 h3{
+    position: relative;
+    margin-top:10px;
+    margin-bottom: 0;
+}
+.myNew2 .news2 .label{
+    border-radius:0;
+    font-weight: 500;
+    font-size:65%;
+    line-height: 50px;
+    margin-right: 10px;
+}
+.myNew2 .news2 .label:before{
+    content:"▶";
+    color:#d9534f;
+    position: absolute;
+    left:45px;
+    top:3px;
+}
+.myNew2 .news2 .media .media-object{
+    width:250px;
+}
+.myNew2 .news2 .media .media-body{
+    line-height:25px;
+}
+/*页码样式*/
+.myNew2 .pagination > li > a{
+    color:#000;
+    border:none;
+    border-radius:0;
+}
+.myNew2 .pagination > li > a:focus,
+.myNew2 .pagination > li > a:hover{
+    background:rgb(231,38,43);
+    color:#fff;
+}
+.myNew2 .pagination > .active > a,
+.myNew2 .pagination > .active > a:focus,
+.myNew2 .pagination > .active > a:hover{
+    background:rgb(231,38,43);
+    color:#fff;
+}
+/*右边*/
+.hot{
+    position:relative;
+    /*margin-top:50px;*/
+}
+.hot img{
+    width:100%;
+}
+.hot .hotPlay{
+    width:30%;
+    position:absolute;
+    left:35%;
+    bottom:25%;
+}
+.hot div{
+    position:absolute;
+    background: rgba(55, 58, 56, 0.49);
+    left:0;
+    right:0;
+    bottom:0;
+    padding:5px;
+    color:white;
+}
+.myNew2-right h4{
+    border-bottom: 1px solid #5e5e5e;
+    width:40px;
+    line-height: 30px;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+/*新闻样式3*/
+.news3{
+    padding:30px;
+    background:rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+.news3 .label{
+    padding:3px 1px;
+    border-radius: 0;
+    background:rgb(231,38,43);
+    margin-right: 20px;
+}
+.news3 .media-body h3{
+    padding:10px 0;
+    border-bottom:1px solid #686868;
+    margin-top:0;
+}
+.news3 p{
+    text-indent: 2em;
+    margin:0;
+    line-height:25px;
+}
+.news3 .media-right img{
+    width:450px;
+    margin:0 30px;
+}
+
+.news3 h2{
+    text-align: center;
+}

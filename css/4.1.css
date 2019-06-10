@@ -1,0 +1,124 @@
+/*第一栏*/
+.myNew1 .thumbnail{
+    border:1px solid #0f0f0f;
+    padding:0;
+    overflow: hidden;
+    border-radius:0;
+}
+.myNew1 img{
+    transition: all 1s;
+}
+.myNew1 img:hover{
+    transform: scale(1.2);
+}
+.myNew1 .caption{
+    width:380px;
+    height:220px;
+    padding:15px;
+    background: rgba(255, 46, 16, 0.5);
+    position:absolute;
+    right:90px;
+    bottom:24px;
+    color:white;
+    overflow: hidden;
+}
+.myNew1 .caption h2{
+    text-align: center;
+    border-bottom:1px solid white;
+    line-height:60px;
+    height:60px;
+    margin-top:0;
+    overflow: hidden;
+}
+.myNew1 .caption p{
+    padding:10px;
+    line-height:25px;
+}
+
+/*第二栏*/
+.myMedia2{
+    margin-bottom:40px;
+}
+.myMedia2 .head{
+    margin:0 auto;
+    padding:0 100px;
+    width:80%;
+    height:100px;
+    min-width: 576px;
+    position: relative;
+}
+.myMedia2 .number{
+    margin-top:30px;
+    margin-bottom:50px;
+    margin-left:20%;
+     font-style: normal;
+     width:50px;
+     height:50px;
+     display:block;
+    border:1px solid #000;
+     background:white;
+     float:left;
+     transform: rotate(45deg);
+    cursor: pointer;
+    z-index:10;
+    position: relative;
+ }
+.myMedia2 hr{
+    border:none;
+    width:45%;
+    height:1px;
+    background: #000;
+    position: absolute;
+    top:34px;
+    left:30%;
+    z-index:1;
+}
+.myMedia2 .number b{
+    display: block;
+    transform: rotate(-45deg);
+    color:red;
+    font-size: 20pt;
+    font-weight: 500;
+    margin-left: 8px;
+}
+.myMedia2 .number:hover,
+.myMedia2 .numActive{
+     background:red;
+ }
+.myMedia2 .number:hover b,
+.myMedia2 .numActive b{
+    color:white;
+}
+
+
+
+.myMedia2 .thumbnail{
+    margin-top:5%;
+    padding:0;
+}
+.myMedia2 .media-text{
+    cursor: pointer;
+    clear:both;
+}
+
+.myMedia2 .media-heading{
+    line-height: 25px;
+    margin-left:15px;
+    color:red;
+}
+.myMedia2 .text{
+    display: block;
+    line-height:25px;
+    padding:5px 0 5px 30px;
+    text-indent: 2em;
+}
+.myMedia2 .media-more{
+    text-align: right;
+}
+.myMedia2 .media1{
+    display:none;
+    background:rgba(255, 255, 255, 0.8);
+}
+.myMedia2 .media1:nth-child(2){
+    display:block;
+}

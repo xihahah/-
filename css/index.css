@@ -1,0 +1,310 @@
+body{
+    background:url("../img/beijing_2.png") no-repeat center bottom,
+               url("../img/bg3.png") no-repeat center top;
+    background-color:#EBD6C1;
+}
+/*顶部标题栏*/
+.topTitle{
+    margin-top:40px;
+    margin-bottom:50px;
+    background:transparent;
+}
+.Title{
+    margin-top:50px;
+}
+/*重写导航栏样式*/
+.myNav{
+    background:rgb(231,38,43);
+    border:none;
+    border-radius:0;
+    margin-bottom:10px;
+}
+.myNav .navbar-header a{
+    display: block;
+    color:white;
+    font-weight:bold;
+    text-align: center;
+    line-height: 50px;
+}
+.myNav .navbar-header a:hover{
+    text-decoration: none;
+}
+.myNav .navbar-nav >li >a{
+    color:white;
+    font-weight:bold;
+}
+.myNav .navbar-nav >li >a:hover,
+.myNav .navbar-nav > li > a:focus{
+     color:white;
+ }
+.myNav .navbar-nav > .open > a,
+.myNav .navbar-nav > .open > a:focus,
+.myNav .navbar-nav > .open > a:hover{
+    color:white;
+    background:rgb(195,34,39);
+}
+.myUl li{
+    width:14%;
+    min-width:104px;
+    text-align:center;
+}
+.myUl .dropdown-menu{
+    width:100%;
+    min-width: 100%;
+}
+
+/*下拉框样式*/
+.myMenu{
+    border:1px solid rgb(195,34,39);
+    border-radius: 0;
+    box-shadow:none;
+}
+.myMenu li{
+    width:100%;
+}
+.myMenu>li>a{
+    color:rgb(231,38,43);
+}
+.myMenu>li:hover{
+}
+.myMenu>li>a:hover{
+    color:white;
+    background:rgb(231,38,43);
+}
+/*头条样式*/
+.myTitle{
+    color:rgb(231,38,43);
+    margin-bottom: 45px;
+    margin-top:40px;
+}
+.myTitle .myNew{
+    height:68px;
+    line-height: 68px;
+    overflow: hidden;
+}
+.myTitle .myNew ul li{
+    list-style: none;
+}
+.myTitle .myNew ul li a{
+    font-size:17pt;
+    color:rgb(231,38,43);
+}
+.myTitle .myNewLogo i{
+    display:block;
+    width:50px;
+    height:50px;
+    background:url(../img/p20.png) no-repeat center;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.myTitle:hover .myNewLogo i,
+.myTitle .myNewLogo i:hover{
+    background:url(../img/p21.png) no-repeat center;
+}
+    /*轮播样式*/
+.iCaption{
+    background: rgba(55, 58, 56, 0.49);
+    left:0;
+    right:0;
+    bottom:0;
+    padding:10px;
+    text-align: left;
+    font-size:16pt;
+}
+.myCar .carousel-control.left,
+.myCar .carousel-control.right{
+    background:none;
+}
+.myCar .carousel-control .glyphicon-chevron-left{
+    left:10%;
+}
+.myCar .carousel-control .glyphicon-chevron-right{
+    right:10%;
+}
+/*小标题*/
+.sNav{
+    margin-top:20px;
+    margin-bottom:10px;
+    border-bottom:3px solid rgb(231, 53, 52);
+}
+.sNav>li.active>a,
+.sNav>li.active>a:hover{
+    border:none;
+    background:transparent;
+    color:rgb(231, 53, 52);
+    font-size:13pt;
+}
+/*信息栏*/
+.thumbnail{
+    background-color:transparent;
+}
+a{
+    color:#333;
+}
+.box{
+    padding-left:50px;
+    padding-right:50px;
+}
+.news{
+    border:none;
+    background-color:transparent;
+}
+.newlist>li{
+    border:none;
+    border-bottom:1px solid #b6b6b6;
+    margin:13px 0;
+    background-color:transparent;
+}
+.more{
+    margin-top:-10px;
+    color: rgb(231, 100, 92);
+    font-size:10pt;
+}
+.more>p{
+    display:inline-block;
+    float:left;
+}
+.more>p>i{
+    color:#000;
+    font-style: normal;
+}
+.more>a{
+    color: rgb(231, 100, 92);
+    display:inline-block;
+    float:right;
+}
+.more>a:hover{
+    text-decoration:none;
+}
+/*右边图片样式*/
+.myPic{
+    /*margin-top:35px;*/
+}
+.myPic>.thumbnail{
+    border:none;
+    margin:35px 0;
+}
+/*左边信息栏*/
+.newMedia>p{
+    margin:20px 0;
+    padding:0 10px;
+}
+/*支教故事*/
+.story>p{
+    margin-bottom:40px;
+    margin-top:25px;
+}
+.story>p>label{
+    border-radius:0;
+    background: rgb(247, 247, 247);
+    color:rgb(231, 53, 52);
+    font-size:12pt;
+    line-height: 30px;
+    font-weight:500;
+    text-align: center;
+    margin-right:25px;
+    width:100px;
+}
+/*支教招募*/
+.message div{
+    margin:20px 0;
+}
+.message .day{
+    color:rgb(231, 53, 52);
+    font-size:16pt;
+    margin-right:10px;
+}
+.message .year{
+    color:rgb(231, 53, 52);
+    font-size:12pt;
+    margin-right:25px;
+}
+.message a{
+    color:#000;
+    border-left:2px solid #9f9f9f;
+    display:inline-block;
+    width:420px;
+    height:35px;
+    padding:0 30px;
+}
+/*特别专题*/
+.myPic2 .thumbnail{
+    border:none;
+}
+/*视频*/
+.myMedia{
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+.myMedia .thumbnail{
+    border:none;
+    margin-left:20px;
+}
+.myMedia .play{
+    display: inline;
+    margin-top:-80%;
+    margin-left:30%;
+    width:30%;
+}
+.myMedia .caption{
+    margin-top:-40px;
+    margin-left:10px;
+    color:white;
+}
+
+/*版权*/
+.myBottom{
+    background:rgb(231,38,43);
+    border-radius:0;
+    padding:20px 80px;
+    /*margin:0 20px;*/
+    color:white;
+}
+.myBottom .weixin{
+    border:2px solid white;
+    width:120px;
+    height:95px;
+}
+.myBottom .weixin img{
+    width:90px;
+    vertical-align:0;
+    display:inline-block;
+}
+.myBottom .weixin p{
+    /*word-break: break-all;*/
+    word-wrap: break-word;
+    width:15px;
+    line-height: 17px;
+    display:inline-block;
+    padding:9px 5px;
+    padding-right:20px;
+    float:right;
+}
+.myBottom .breadcrumb{
+    background:transparent;
+    margin-top:0;
+    margin-bottom:0;
+}
+.myBottom .breadcrumb a{
+    color:white;
+    font-size:13pt;
+}
+.myBottom .breadcrumb > li{
+
+}
+.myBottom .breadcrumb > li + li::before{
+    content:"|";
+    padding:0 10px;
+}
+.myBottom p{
+    font-size:13pt;
+}
+/*音乐播放器*/
+.music{
+    margin-top:45%;
+}
+.music canvas{
+    width:100px;
+    height:40px;
+    cursor: pointer;
+}

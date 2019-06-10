@@ -1,0 +1,81 @@
+.about{
+    padding:0 50px;
+}
+.about .aboutHead{
+    margin:50px 0;
+}
+.about .aboutHead h2{
+    display: inline-block;
+    margin:0 50px;
+}
+.about .aboutHead .hrLeft{
+    position:relative;
+    top:10px;
+    width:35%;
+    height:3px;
+    border:none;
+    display:inline-block;
+    background:linear-gradient(to left, rgba(0, 0, 0, 0.37), rgba(255, 255, 255, 0));
+}
+.about .aboutHead .hrLeft:after{
+    content: "";
+    width:7px;
+    height:7px;
+    border-radius:50px;
+    background: rgb(112, 112, 112);
+    position: absolute;
+    right:0;
+    top:-2px;
+}
+.about .aboutHead .hrRight{
+    position:relative;
+    top:10px;
+    width:35%;
+    height:3px;
+    border:none;
+    display:inline-block;
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.37), rgba(255, 255, 255, 0));
+}
+.about .aboutHead .hrRight:after{
+    content: "";
+    width:7px;
+    height:7px;
+    border-radius:50px;
+    background: rgb(112, 112, 112);
+    position: absolute;
+    left:0;
+    top:-2px;
+}
+.about .aboutBody .media{
+    margin:40px 0;
+}
+.about .aboutBody .media .media-object{
+    width:150px;
+}
+.about .aboutBody .media .media-body{
+    padding:0 30px;
+}
+.about .aboutBottom{
+    margin:50px 0;
+}
+.about .aboutBottom .button{
+    color:#000;
+    background:rgb(231,38,43);
+    width:100px;
+    height:40px;
+    line-height:40px;
+    display:block;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 40px;
+    border-bottom:2px solid #0f0f0f;
+}
+.about .aboutBottom .button:hover{
+    text-decoration: none;
+    background: rgb(231, 94, 83);
+    border-right:2px solid #272727;
+}
+.about .aboutBottom .button:active,
+.about .aboutBottom .button:visited{
+    text-decoration: none;
+}

@@ -1,0 +1,102 @@
+/*第一栏*/
+.myNew1 .thumbnail{
+    border:none;
+    overflow: hidden;
+    border-radius:0;
+}
+.myNew1 img{
+    transition: all 1s;
+}
+.myNew1 img:hover{
+    transform: scale(1.2);
+}
+.myNew1 .lCaption{
+    width:380px;
+    height:220px;
+    padding:15px;
+    background: rgba(255, 46, 16, 0.5);
+    position:absolute;
+    right:90px;
+    bottom:24px;
+    color:white;
+    overflow: hidden;
+}
+.myNew1 .lCaption h2{
+    text-align: center;
+    border-bottom:1px solid white;
+    line-height:60px;
+    height:60px;
+    margin-top:0;
+    overflow: hidden;
+}
+.myNew1 .lCaption p{
+    padding:10px;
+    line-height:25px;
+}
+
+/*第二栏*/
+.myNew2{
+    height:340px;
+}
+.myNew2 a:hover{
+    text-decoration:none;
+}
+.myNew2 .thumbnail{
+    width:20%;
+    height:85%;
+    border:0;
+    border-radius: 0;
+    float:left;
+    padding:0;
+    overflow:hidden;
+}
+.myNew2 img{
+    height:auto;
+}
+.myNew2 .myText{
+    width:100%;
+    height:310px;
+    background: rgba(16, 125, 255, 0.5);
+    color:white;
+    font-size:14pt;
+    display:none;
+    position:relative;
+    margin-top:-310px;
+    text-align:center;
+    padding:130px 30px 0 30px;
+}
+/*第三栏*/
+.myNew3{
+    background:rgba(255, 255, 255, 0.6);
+    margin-bottom:20px;
+    padding-top:40px;
+}
+.myNew3 ul{
+    color:red;
+}
+.myNew3 ul li{
+    border-bottom:1px solid black;
+    margin:10px;
+    height:50px;
+    line-height:50px;
+}
+.myNew3 p{
+    color:#000;
+}
+.myNew3 .newTitle{
+    float:left;
+}
+.myNew3 .newTime{
+    float:right;
+}
+.myNew3 .newsP1{
+    display:block;
+}
+.myNew3 .newsP2{
+    display:none;
+}
+/*页码*/
+.myNew3 .pagination li a{
+    border:none;
+    color:#000;
+}

@@ -1,0 +1,31 @@
+.myNew4{
+    padding:30px;
+    margin:20px 0;
+    background:rgba(255, 255, 255, 0.8);
+}
+.myNew4 .thumbnail{
+    margin:10px;
+}
+.myNew4 .thumbnail h4{
+     line-height:25px;
+    margin-bottom:20px;
+ }
+.myNew4 .thumbnail:hover{
+    background:rgb(231,38,43);
+}
+.myNew4 .thumbnail:hover h4{
+    color:#fff;
+}
+.myNew4 .thumbnail .btn-primary{
+    border-radius:0;
+    background:rgb(231,38,43);
+    border-color:#fff;
+}
+.myNew4 .thumbnail .btn-primary:hover{
+    background:#d9534f;
+}
+.myNew4 .thumbnail .news4Time{
+    display:inline-block;
+    float:right;
+    margin-top:10px;
+}

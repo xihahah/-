@@ -1,0 +1,48 @@
+.myNew5{
+    margin-bottom: 30px;
+}
+.myNew5 .row{
+    margin:0;
+    padding:0;
+}
+.myNew5 .thumbnail{
+    border:none;
+    border-radius:0;
+    padding:0;
+    margin:0;
+    overflow: hidden;
+    position:relative;
+    width:33%;
+    float:left;
+}
+.myNew5 .thumbnail .myText{
+    display:none;
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    background: rgba(112, 112, 112, 0.65);
+    padding:20px 30px;
+}
+.myNew5 .thumbnail .myText h3{
+    text-align: center;
+    color:#fff;
+    margin-top:15%;
+}
+.myNew5 .thumbnail .myText button{
+    display: inline-block;
+    margin-left:30%;
+    margin-top:15%;
+    padding:5px 10px;
+    font-size:11pt;
+    background:rgb(231,38,43);
+    color:#fff;
+    border:1px solid #fff;
+}
+.myNew5 img{
+    transition: all 1s;
+}
+.myNew5 img:hover{
+    transform: scale(1.2);
+}
