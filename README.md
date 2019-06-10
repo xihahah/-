@@ -1,11 +1,11 @@
 # 《不忘初心，支教传递梦想》主题网站
-宣传性、引导性、学习性、激励性的展示平台
+一个宣传性、引导性、学习性、激励性的展示平台<br>
 
 ## 使用的框架
-bootstrap
+bootstrap<br>
 
 ## 网站语言
-简体中文/English
+简体中文/English<br>
 
 ## demo
 https://xihahah.github.io/Volunteers/index.htm <br>
