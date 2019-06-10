@@ -8,4 +8,5 @@ bootstrap
 简体中文/English
 
 ## demo
-https://xihahah.github.io/Volunteers/index.htm
+https://xihahah.github.io/Volunteers/index.htm <br>
+demo的加载速度十分缓慢，建议下载查看
