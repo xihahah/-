@@ -8,4 +8,4 @@ bootstrap
 简体中文/English
 
 ## demo
-<a href="https://xihahah.github.io/Volunteers/index.htm" target="_blank">https://xihahah.github.io/Volunteers/index.htm</a>
+https://xihahah.github.io/Volunteers/index.htm
